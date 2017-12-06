@@ -1,0 +1,13 @@
+{
+  "name": "cineworld-film-scraper",
+  "version": "0.0.1",
+  "description": "Scraping Cineworld's film syndication pages.",
+  "main": "server.js",
+  "author": "Chris Snowden",
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "latest",
+    "request": "latest",
+    "xml2js": "^0.4.19"
+  }
+}

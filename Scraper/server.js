@@ -7,7 +7,7 @@ var parseString = require('xml2js').parseString;
 
 app.get('/scrape', function(req, res){
 
-  url = 'https://www.cineworld.co.uk/syndication/all-performances.xml';
+  url = 'https://www.cineworld.co.uk/syndication/listings.xml';
 
   request(url, function(error, response, html){
     
